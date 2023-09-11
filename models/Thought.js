@@ -1,4 +1,4 @@
-// Import required libraries
+// Importing the required libraries
 import mongoose from 'mongoose';
 
 // Destructured the 'Schema' object from the mongoose library
@@ -56,8 +56,8 @@ thoughtSchema.virtual('friendCount').get(function() {
   return this.friends.length;
 });
 
-// Create a model 'Thought' using the 'thoughtSchema'
+// Creating a model 'Thought' using the 'thoughtSchema'
 const Thought = mongoose.model('Thought', thoughtSchema);
 
-// Export the 'Thought' model
+// Exporting the 'Thought' model
 export default Thought;
