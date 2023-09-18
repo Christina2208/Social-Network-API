@@ -1,5 +1,5 @@
-// Importing the required libraries
-import mongoose from 'mongoose';
+// Requiring the required libraries
+const mongoose = require('mongoose');
 
 // Destructured the 'Schema' object from the mongoose library
 const { Schema } = mongoose;
@@ -60,4 +60,4 @@ thoughtSchema.virtual('friendCount').get(function() {
 const Thought = mongoose.model('Thought', thoughtSchema);
 
 // Exporting the 'Thought' model
-export default Thought;
+module.exports = Thought;

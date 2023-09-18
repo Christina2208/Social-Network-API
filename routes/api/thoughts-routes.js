@@ -1,7 +1,8 @@
 // Requiring express and creating routes for thoughts.js
 const express = require('express');
 const router = express.Router();
-const thoughtController = require('../controllers/thought-controller');
+const thoughtController = require('../../controllers/thought-controller');
+//const thoughtController = require('../controllers/thought-controller');
 
 // GET all the thoughts and POST a new thought
 router.route('/')

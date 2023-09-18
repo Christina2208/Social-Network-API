@@ -1,8 +1,6 @@
 # Social-Network-API
 An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 
-## Deployed Application URL
-
 ## Table of Contents
 *[Walkthrough](#walkthrough)
 
@@ -19,6 +17,7 @@ An API for a social network web application where users can share their thoughts
 *[Questions](#email)
 ## Walkthrough
 
+N/A
 
 ## Usage
 

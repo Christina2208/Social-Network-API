@@ -1,7 +1,8 @@
 // Requiring express and creating routes for users.js
 const express = require('express');
 const router = express.Router();
-const userController = require('../controllers/user-controller');
+const userController = require('../../controllers/user-controller');
+//const userController = require('../controllers/user-controller');
 
 // GET all the users and POST a new user
 router.route('/')
